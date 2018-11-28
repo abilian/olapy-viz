@@ -1,0 +1,10 @@
+#olapy
+-e git+https://github.com/abilian/olapy.git#egg=olapy
+
+# Web
+flask
+Flask-Login
+Flask-Migrate
+Flask-SQLAlchemy
+SQLAlchemy
+bokeh

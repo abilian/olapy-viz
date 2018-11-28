@@ -1,0 +1,10 @@
+# Tools / dev / testing
+flake8
+flake8-tidy-imports
+isort
+pip-tools
+pylint
+pytest
+pytest-cov
+tox
+yapf==0.20.0
