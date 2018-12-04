@@ -13,9 +13,9 @@ How to use it
 Start by importing your data (as csv files format right now), you can import either one file containing all your data, or
 separated files dataset which follows [star schema model](http://datawarehouse4u.info/Data-warehouse-schema-architecture-star-schema.html)
 
-<i>(you can use the two data sets demos in the [repository](https://github.com/abilian/olapy-web/tree/olapy-web2.0/demo_datasets) as example)</i>
+<i>(you can use the two data sets demos in the [repository](https://github.com/abilian/olapy-viz/tree/master/demo_datasets) as example)</i>
 
-![Import Data sets](https://raw.githubusercontent.com/abilian/olapy-web/olapy-web2.0/docs/img/import_files.gif)
+![Import Data sets](https://raw.githubusercontent.com/abilian/olapy-viz/master/docs/img/import_files.gif)
 
 Now lets construct some charts, to do so, drag and drop variables to x and y axis
 
@@ -23,7 +23,7 @@ Now lets construct some charts, to do so, drag and drop variables to x and y axi
 Options-menus are available under the chart to modify some parameters:
 
 
-![Circle chart](https://raw.githubusercontent.com/abilian/olapy-web/olapy-web2.0/docs/img/circle_hex_chart.gif)
+![Circle chart](https://raw.githubusercontent.com/abilian/olapy-viz/master/docs/img/circle_hex_chart.gif)
 
 
 Try it by yourself
