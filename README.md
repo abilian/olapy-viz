@@ -31,8 +31,7 @@ Try it by yourself
 
 First you need to clone the repository with:
 
-    git clone https://github.com/abilian/olapy-web.git
-    git ckeckout olapy-web2.0
+    git clone https://github.com/abilian/olapy-viz.git
 
 install dependencies, ideally in a virtualenv  with:
 
