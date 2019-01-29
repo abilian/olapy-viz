@@ -4,9 +4,9 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-alembic==1.0.5            # via flask-migrate
+alembic==1.0.7            # via flask-migrate
 attrs==18.2.0             # via olapy
-bokeh==1.0.3
+bokeh==1.0.4
 click==7.0                # via flask, olapy
 flask-login==0.4.1
 flask-migrate==2.3.1
@@ -17,20 +17,20 @@ jinja2==2.10              # via bokeh, flask
 lxml==4.3.0               # via olapy
 mako==1.0.7               # via alembic
 markupsafe==1.1.0         # via jinja2, mako
-numpy==1.15.4             # via bokeh, pandas
+numpy==1.16.0             # via bokeh, pandas
 olapy==0.7.0
-packaging==18.0           # via bokeh
-pandas==0.23.4            # via olapy
+packaging==19.0           # via bokeh
+pandas==0.24.0            # via olapy
 pillow==5.4.1             # via bokeh
-pyparsing==2.3.0          # via packaging
+pyparsing==2.3.1          # via packaging
 python-dateutil==2.7.5    # via alembic, bokeh, pandas
 python-editor==1.0.3      # via alembic
 pytz==2018.9              # via pandas, spyne
 pyyaml==3.13              # via bokeh, olapy
-regex==2018.11.22         # via olapy
+regex==2019.1.24          # via olapy
 six==1.12.0               # via bokeh, packaging, python-dateutil
 spyne==2.13.2a0           # via olapy
-sqlalchemy==1.2.15
+sqlalchemy==1.2.17
 tornado==5.1.1            # via bokeh
 typing==3.6.6             # via olapy
 werkzeug==0.14.1          # via flask

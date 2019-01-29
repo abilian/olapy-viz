@@ -16,11 +16,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
-    "material-design-icons-iconfont": "^4.0.3",
-    "vue": "^2.5.21",
+    "material-design-icons-iconfont": "^4.0.4",
+    "vue": "^2.5.22",
     "vue-swatches": "^1.0.2",
     "vuedraggable": "^2.17.0",
-    "vuetify": "^1.4.0"
+    "vuetify": "^1.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -80,10 +80,10 @@
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.12.0",
+    "webpack": "^4.16.5",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^3.1.5",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
