@@ -186,7 +186,7 @@ def _circle_plot(df, x_axis, y_axis, plot_size, fill_color, plot_legend, line_st
         sizes = plot_size
 
     plot.circle(df[x_axis[0]], df[y_axis[0]], fill_color=colors, color=colors, fill_alpha=0.2, size=sizes,
-                line_width=1, line_dash=line_style, )
+                line_width=1, line_dash=line_style.lower(), )
 
     return components(plot, wrap_script=False)
 
@@ -237,9 +237,8 @@ def auto_plot_type(df, x_axis, y_axis, plot_size, plot_legend, line_style, fill_
             plot['div'] = div
             plot['script'] = script
             return plot
-        except:
+        except ValueError:
             pass
-    return plot
 
 
 def generate_plot(chart_type, df, x_axis, y_axis, plot_size, plot_legend, line_style, fill_color, color_elements,
