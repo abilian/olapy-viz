@@ -14,22 +14,22 @@ flask-sqlalchemy==2.3.2
 flask==1.0.2
 itsdangerous==1.1.0       # via flask
 jinja2==2.10              # via bokeh, flask
-lxml==4.3.0               # via olapy
+lxml==4.3.1               # via olapy
 mako==1.0.7               # via alembic
 markupsafe==1.1.0         # via jinja2, mako
 numpy==1.16.1             # via bokeh, pandas
-olapy==0.7.0
+olapy==0.7.5
 packaging==19.0           # via bokeh
-pandas==0.24.0            # via olapy
+pandas==0.24.1            # via olapy
 pillow==5.4.1             # via bokeh
 pyparsing==2.3.1          # via packaging
-python-dateutil==2.7.5    # via alembic, bokeh, pandas
+python-dateutil==2.8.0    # via alembic, bokeh, pandas
 python-editor==1.0.4      # via alembic
 pytz==2018.9              # via pandas, spyne
-pyyaml==3.13              # via bokeh, olapy
-regex==2019.1.24          # via olapy
+pyyaml==4.2b4             # via bokeh, olapy
+regex==2019.2.7           # via olapy
 six==1.12.0               # via bokeh, packaging, python-dateutil
-spyne==2.13.2a0           # via olapy
+spyne==2.13.3a0           # via olapy
 sqlalchemy==1.2.17
 tornado==5.1.1            # via bokeh
 typing==3.6.6             # via olapy
