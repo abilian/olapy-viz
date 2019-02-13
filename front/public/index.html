@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Olapy Web 2.0</title>
+  <title>Olapy Viz</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.0.1/bokeh.min.css" rel="stylesheet" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/1.0.1/bokeh.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,12 +13,5 @@
 
 <div id="app">
 </div>
-
-<!-- for prod: -->
-{#keep prob by default, not dev #}
-{#<script src="{{ url_for('static',filename='build.js') }}"></script>#}
-<!-- for dev: -->
-<script type="text/javascript" src="http://localhost:8080/static/build.js"></script>
-
 </body>
 </html>
