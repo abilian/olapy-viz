@@ -4,34 +4,34 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-alembic==1.0.7            # via flask-migrate
-attrs==18.2.0             # via olapy
-bokeh==1.0.4
+alembic==1.0.10           # via flask-migrate
+attrs==19.1.0             # via olapy
+bokeh==1.2.0
 click==7.0                # via flask, olapy
 flask-login==0.4.1
-flask-migrate==2.3.1
-flask-sqlalchemy==2.3.2
-flask==1.0.2
+flask-migrate==2.5.2
+flask-sqlalchemy==2.4.0
+flask==1.0.3
 itsdangerous==1.1.0       # via flask
-jinja2==2.10              # via bokeh, flask
-lxml==4.3.1               # via olapy
-mako==1.0.7               # via alembic
-markupsafe==1.1.0         # via jinja2, mako
-numpy==1.16.1             # via bokeh, pandas
-olapy==0.7.5
+jinja2==2.10.1            # via bokeh, flask
+lxml==4.3.4               # via olapy
+mako==1.0.12              # via alembic
+markupsafe==1.1.1         # via jinja2, mako
+numpy==1.16.4             # via bokeh, pandas
+olapy==0.7.6
 packaging==19.0           # via bokeh
-pandas==0.24.1            # via olapy
-pillow==5.4.1             # via bokeh
-pyparsing==2.3.1          # via packaging
+pandas==0.24.2            # via olapy
+pillow==6.0.0             # via bokeh
+pyparsing==2.4.0          # via packaging
 python-dateutil==2.8.0    # via alembic, bokeh, pandas
 python-editor==1.0.4      # via alembic
-pytz==2018.9              # via pandas, spyne
-pyyaml==4.2b4             # via bokeh, olapy
-regex==2019.2.7           # via olapy
+pytz==2019.1              # via pandas, spyne
+pyyaml==5.1.1             # via bokeh, olapy
+regex==2019.6.8           # via olapy
 six==1.12.0               # via bokeh, packaging, python-dateutil
-spyne==2.13.3a0           # via olapy
-sqlalchemy==1.2.17
-tornado==5.1.1            # via bokeh
+spyne==2.13.9a0           # via olapy
+sqlalchemy==1.3.4
+tornado==6.0.2            # via bokeh
 typing==3.6.6             # via olapy
-werkzeug==0.14.1          # via flask
+werkzeug==0.15.4          # via flask
 xmlwitch==0.3             # via olapy
